@@ -17,7 +17,7 @@ public class TC_03 {
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("Hello");
 		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("Hello");
 		driver.findElement(By.xpath("//button[@data-testid='royal_login_button']")).click();
-		driver.findElement(By.xpath("//a[normalize-space()='Forgotten password?']")).click();
+		//driver.findElement(By.xpath("//a[normalize-space()='Forgotten password?']")).click();
 		driver.navigate().refresh();
 
 }
